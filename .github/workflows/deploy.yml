@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Production
 on:
   push:
     branches:
-      - main  # or 'production' or any branch you use for prod
+      - production
 
 jobs:
   deploy:
